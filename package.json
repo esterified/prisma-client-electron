@@ -1,6 +1,6 @@
 {
   "name": "@esterified/prisma-client-electron",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shared Prisma Client Example",
   "scripts": {
     "migrate": "prisma migrate",
@@ -9,8 +9,8 @@
     "push": "npm version patch && npm publish"
   },
   "devDependencies": {
+    "@prisma/client": "5.5.2",
     "dotenv-cli": "^7.2.1",
-    "@prisma/client": "^4.15.0",
     "prisma": "^4.15.0"
   },
   "peerDependencies": {
@@ -24,6 +24,10 @@
     "client/index.d.ts",
     "schema.prisma"
   ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/esterified/prisma-client-electron.git"
+},
   "author": "Fayed1589@gmail.com",
   "license": "ISC"
 }
