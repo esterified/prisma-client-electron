@@ -6,7 +6,7 @@
     "migrate": "prisma migrate",
     "postinstall": "prisma generate",
     "publish": "npm publish --access public",
-    "push": "npm version major && npm publish"
+    "push": "npm version patch && npm publish"
   },
   "devDependencies": {
     "dotenv-cli": "^7.2.1",
