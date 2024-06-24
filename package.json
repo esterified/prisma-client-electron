@@ -1,6 +1,6 @@
 {
   "name": "@esterified/prisma-client-electron",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Shared Prisma Client Example",
   "scripts": {
     "migrate": "prisma migrate",
@@ -9,9 +9,9 @@
     "push": "npm version patch && npm publish"
   },
   "devDependencies": {
-    "@prisma/client": "5.5.2",
+    "@prisma/client": "^5.15.1",
     "dotenv-cli": "^7.2.1",
-    "prisma": "^4.15.0"
+    "prisma": "^5.15.1"
   },
   "peerDependencies": {
     "@prisma/client": "*",
