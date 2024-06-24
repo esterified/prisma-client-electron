@@ -1,6 +1,6 @@
 {
   "name": "@esterified/prisma-client-electron",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shared Prisma Client Example",
   "scripts": {
     "migrate": "prisma migrate",
@@ -25,9 +25,9 @@
     "schema.prisma"
   ],
   "repository": {
-  "type": "git",
-  "url": "https://github.com/esterified/prisma-client-electron.git"
-},
+    "type": "git",
+    "url": "https://github.com/esterified/prisma-client-electron.git"
+  },
   "author": "Fayed1589@gmail.com",
   "license": "ISC"
 }
