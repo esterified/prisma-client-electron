@@ -1,6 +1,6 @@
 {
   "name": "@esterified/prisma-client-electron",
-  "version": "5.0.0",
+  "version": "0.0.1",
   "description": "Shared Prisma Client Example",
   "scripts": {
     "migrate": "prisma migrate",
